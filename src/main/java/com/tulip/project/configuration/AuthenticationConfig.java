@@ -64,7 +64,8 @@ public class AuthenticationConfig {
                 .antMatchers("/webjars/**")
                 .antMatchers("/swagger-ui/**")
                 .antMatchers("/api/create")
-                .antMatchers("/api/login");
+                .antMatchers("/api/login")
+                .antMatchers("/actuator/**");
     }
 
 }
